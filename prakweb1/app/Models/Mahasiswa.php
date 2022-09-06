@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 class Mahasiswa extends Model
 {
-    protected $DBGroup          = 'default';
-    protected $table            = 'mahasiswas';
+    // protected $DBGroup          = 'default';
+    protected $table            = 'mahasiswa';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     // protected $insertID         = 0;
